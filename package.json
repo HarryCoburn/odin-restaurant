@@ -1,0 +1,22 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "Restaurant Page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mattibun/odin-restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mattibun/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/Mattibun/odin-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
