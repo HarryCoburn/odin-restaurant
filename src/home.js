@@ -1,18 +1,16 @@
 const homePage = () => {
-    let content = document.getElementById("content");
-    let headline = document.createElement('h1');    
-    headline.textContent = "This is a restaurant!"
+    let content = document.getElementById("tabContent");    
 
     let para = document.createElement('p');
-    para.textContent = "It has food!";
+    para.textContent = "AYCE Buffet brings you the tastiest food and food accessories for your hunger needs.";
 
     let foodImg = document.createElement('img');
     foodImg.src = "./food.jpg";
 
     let para2 = document.createElement('p');
-    para2.textContent = "See? Food! Come eat it! $12.99 per person."
+    para2.textContent = "See? Food! Come eat it! $12.99 per person. Open when the sign says open!"
 
-    content.append(headline, para, foodImg, para2);
+    content.append(para, foodImg, para2);
 }
 
 export default homePage
