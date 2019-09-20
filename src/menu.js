@@ -1,10 +1,10 @@
 const menuContent = () => {
-    let content = document.getElementById("tabContent");    
+  const content = document.getElementById('tabContent');
 
-    let para = document.createElement('p');
-    para.textContent = "This should be a menu!";
+  const para = document.createElement('p');
+  para.textContent = 'This should be a menu!';
 
-    content.append(para);
-}
+  content.append(para);
+};
 
-export default menuContent
+export default menuContent;

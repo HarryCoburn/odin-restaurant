@@ -1,15 +1,13 @@
-#content {   
-    text-align: center; 
+#content {
+  text-align: center;
 }
 
 img {
-    max-width: 70%;
-    max-height: 100%;
+  max-width: 70%;
+  max-height: 100%;
 }
 
-nav a{
-    display: inline-block;
-    margin: 20px;
-    
+nav a {
+  display: inline-block;
+  margin: 20px;
 }
-
