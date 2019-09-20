@@ -6,8 +6,10 @@ const headerContent = () => {
     let nav = document.createElement('nav');
     let menuItems = ["Home", "Menu", "Contact Us"]
     menuItems.forEach(item => {
-        let div = document.createElement('div');
+        let div = document.createElement('a');
+        div.setAttribute('href', '#');
         div.textContent = item;
+        div.id = item;
         nav.append(div);
     })
     let tabContent = document.createElement('div');

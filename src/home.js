@@ -1,4 +1,4 @@
-const homePage = () => {
+const homeContent = () => {
     let content = document.getElementById("tabContent");    
 
     let para = document.createElement('p');
@@ -13,4 +13,4 @@ const homePage = () => {
     content.append(para, foodImg, para2);
 }
 
-export default homePage
+export default homeContent
